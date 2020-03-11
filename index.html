@@ -1,327 +1,201 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
-<title> Home </title>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<!--jQuery (necessary for Bootstrap's JavaScript plugins)-->
-<!-- Custom Theme files -->
-<link href="css/style.css" rel='stylesheet' type='text/css' />
-<!--Custom Theme files-->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-</script>
-<script src="js/jquery-1.8.3.min.js"></script>
-<script src="js/modernizr.custom.js"></script>
-
- <!--start-smoth-scrolling-->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-		
-		<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-				});
-			});
-		</script>
-<!--start-smoth-scrolling-->
-	<!--webfonts-->
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-	<!--webfonts-->	
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title id="title">Luosu导航</title>
+  <meta name="keywords" content="Luosu导航">
+  <meta name="description" content="Luosu导航">
+  <link rel="stylesheet icon" href="img/icon.ico"/>
+  <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <script type="text/javascript" src="js/jQuery.js"></script>
+  <script type="text/javascript" src="bootstrap/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/slideout.css">
+  <script>
+    var now = new Date().getTime();
+    document.write('<link href="css/style.css?v=' + now + '" rel="stylesheet" type="text/css"/>');
+    // 百度统计
+    var _hmt = _hmt || []; (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?a510829ff061af31126b4982eb93d08d";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
 </head>
 <body>
-<!--header-->
-	<div class="header-section">
-		<div class="header-top"></div>
-			<div class="container">
-			<!--logo-->
-			   <div class="logo">
-				<a href="index.html"><img src="images/logo.png" alt=""></a>
-				</div>
-			<!--top-nav-->
-			<div class="sub-header">
-			<div class="top-nav">
-					<span class="menu"> </span>
-					<ul>
-						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="about.html">About Us</a></li>
-						<li><a href="services.html">New Services</a></li>
-						<li><a href="404.html">Recent Projects</a></li>
-						<li><a href="blog.html">Blog</a></li>
-						<li><a href="mail.html">Mail Us</a></li>
-						<div class="clearfix"> </div>
-					</ul>
-				</div>
-			</div>
-				<div class="clearfix"> </div>
-		<!-- script-for-menu -->
-				<script>
-					$(document).ready(function(){
-						$("span.menu").click(function(){
-							$(".top-nav ul").slideToggle(200);
-						});
-					});
-				</script>
-			<div class="clearfix"> </div>
-			<!--//End-slider-script-->
-		</div>
-	</div>
-<!--/header-->
-		 <div id="Welcome">
-					<div class="container">
-							<div class="wecome-main">
-								<div class=" col-md-6 wecome-text">
-										<h1>Welcome</h1>
-										<span>Pellentesque consequat aliquam hendrerit. Nam eget 
-												tellus felis. Aenean aliquam pretium felis, eu varius 
-											sapien. Mauris porttitor condimentum faucibus.</span>
-										<p>Nulla facilisi. Nunc convallis tortor non egestas auctor. Sed
-											quis bibendum ex. In hac habitasse platea dictumstNunc at
-											elit commodo, placerat massa in, feugiat ipsum. Cras sed
-											dolor vitae mauris tristique finibus eu a libero. Ut id augue 
-											posuere, faucibus urna nec, pulvinar leo. Sed nunc lectus, 
-											vestibulum nec efficitur sit amet, </p>
-										<div class= "wecome-button">
-											<a class="button rotate2" href="single.html">Read More<span> </span></a>
-										</div>
-									</div>	
-										<div class= "col-md-6 wecome-img">
-											<img src="images/wel-img.png" alt="">
-										</div>
-								<div class="clearfix"> </div>  			
-						</div>
-					</div>	
-				</div>
-	<!-- //End-welcomet-->
-	 <div class="featured-section">
-					<div class="container">
-						<h2>Featured Products</h2>
-							<div class="featured-main">
-								<div class=" col-md-4 feature-text">
-									<img src="images/f1.png" alt="">
-									<h3>Aenean aliquam pretium felis, eu 
-										varius sapien. Mauris porttitor .</h3>
-										<p>Etiam feugiat lectus nisl, in euismod l
-										ectus viverra et. Sed et scelerisqu
-										e felis. Integer vel volutpat massa. Do
-											nec id justo nisl. Vivamus malesuada,
- 											dolor a eleifend sagittis, neque arcu 
-											semper mi, eu finibus ,</p>
-										<div class= "wecome-button">
-											<a class="button rotate2" href="single.html">Read More<span> </span></a>
-										</div>
-									</div>
-									<div class=" col-md-4 feature-text">
-										<img src="images/f2.png" alt="">
-										<h3>Aenean aliquam pretium felis, eu 
-										varius sapien. Mauris porttitor .</h3>
-										<p>Etiam feugiat lectus nisl, in euismod l
-										ectus viverra et. Sed et scelerisqu
-										e felis. Integer vel volutpat massa. Do
-											nec id justo nisl. Vivamus malesuada,
- 											dolor a eleifend sagittis, neque arcu 
-											semper mi, eu finibus ,</p>
-										<div class= "wecome-button">
-											<a class="button rotate2" href="single.html">Read More<span> </span></a>
-										</div>
-									</div>	
-									<div class=" col-md-4 feature-accord">
-								<ul class="topic_grid">
-								   <li class="list1"><h3 class="m_3">List of Features</span></h3><div class="clear5"></div></li>
-								 </ul>
-								  <div class="menu_vertical">
-					         	 	<section class="accordation_menu">
-									  <div>
-									    <input id="label-1" name="lida" type="radio" checked/>
-									   <label for="label-1" id="item1"><i class="ferme"> </i><span class="m_5">Aliquam tincidunt mauris</span><i class="icon-plus-sign i-right1"></i><i class="icon-minus-sign i-right2"></i></label>
-									    <div class="content" id="a1">
-									      <ul class="news_list">
-											 <li class="date_desc">
-							  			   	 		<p>Etiam feugiat lectus nisl, in euismod lectus viverra et. 
-												Sed et scelerisque felis. Integer vel volutpat massa. 
-												Donec id justo nisl. Vivamus .</p>
-							  			   	 </li>
-							  			   	 <div class="clearfix"> </div>
-							  			  </ul>
-									    </div>
-									  </div>
-									  <div>
-									    <input id="label-2" name="lida" type="radio"/>
-									    <label for="label-2" id="item2"><i class="icon-leaf" id="i2"></i>Cras ornare tristiave<i class="icon-plus-sign i-right1"></i><i class="icon-minus-sign i-right2"></i></label>
-									    <div class="content" id="a2">
-									       <ul class="news_list">
-											 <li class="date_desc">
-							  			   	 	<p>Etiam feugiat lectus nisl, in euismod lectus viverra et. 
-												Sed et scelerisque felis. Integer vel volutpat massa. 
-												Donec id justo nisl. Vivamus .</p>
-							  			   	 </li>
-							  			   	 <div class="clearfix"> </div>
-							  			  </ul>      
-									    </div>
-									  </div>
-									  <div>
-									    <input id="label-3" name="lida" type="radio"/>
-									    <label for="label-3" id="item3"><i class="icon-trophy" id="i3"></i>Present placerat riisus<i class="icon-plus-sign i-right1"></i><i class="icon-minus-sign i-right2"></i></label>
-									    <div class="content" id="a3">
-									       <ul class="news_list">
-							  			     <li class="date_desc">
-							  			   	 	<p>Etiam feugiat lectus nisl, in euismod lectus viverra et. 
-												Sed et scelerisque felis. Integer vel volutpat massa. 
-												Donec id justo nisl. Vivamus .</p>
-							  			   	 </li>
-							  			   	 <div class="clearfix"> </div>
-							  			  </ul>
-									    </div>
-									  </div>
-									   <div>
-									    <input id="label-4" name="lida" type="radio"/>
-									    <label for="label-4" id="item4"><i class="icon-trophy" id="i4"></i>Fusce pellellentsque suscrite<i class="icon-plus-sign i-right1"></i><i class="icon-minus-sign i-right2"></i></label>
-									    <div class="content" id="a4">
-									       <ul class="news_list">
-							  			     <li class="date_desc">
-							  			   	 	<p>Etiam feugiat lectus nisl, in euismod lectus viverra et. 
-												Sed et scelerisque felis. Integer vel volutpat massa. 
-												Donec id justo nisl. Vivamus .</p>
-							  			   	 </li>
-							  			   	 <div class="clearfix"> </div>
-							  			  </ul>
-									    </div>
-									  </div>
-									   <div>
-									    <input id="label-5" name="lida" type="radio"/>
-									    <label for="label-5" id="item5"><i class="icon-trophy" id="i5"></i>Ut aliquam Solliicitudin <i class="icon-plus-sign i-right1"></i><i class="icon-minus-sign i-right2"></i></label>
-									    <div class="content" id="a5">
-									       <ul class="news_list">
-							  			     <li class="date_desc">
-							  			   	 	<p>Etiam feugiat lectus nisl, in euismod lectus viverra et. 
-												Sed et scelerisque felis. Integer vel volutpat massa. 
-												Donec id justo nisl. Vivamus .</p>
-							  			   	 </li>
-							  			   	 <div class="clearfix"> </div>
-							  			  </ul>
-									    </div>
-									  </div>
-									</section>
+  <nav id="menu" class="menu">
+   <blockquote class="blockquote">▎ 工具</blockquote> 
+   <ul>
+    <a target="_blank" href="http://forsigner.com/browser-md5-file/"><li class="sidenav-btn">查询文件MD5<p>forsigner的项目</p></li></a> 
+    <a target="_blank" href="http://www.speedtest.cn/"><li class="sidenav-btn">SpeedTest<p>测速网</p></li></a> 
+    <a target="_blank" href="http://ip.tool.chinaz.com/"><li class="sidenav-btn">IP查询<p>站长工具</p></li></a> 
+    <a target="_blank" href="https://www.mdeditor.com/"><li class="sidenav-btn">MD编辑器<p>在线编辑MD</p></li></a> 
+    <a target="_blank" href="https://www.baiduwp.com/"><li class="sidenav-btn">网盘解析<p>破解云盘</p></li></a> 
+    <a target="_blank" href="https://mm.edrawsoft.cn/"><li class="sidenav-btn">思维导图<p>在线思维导图工具</p></li></a>
+    <a target="_blank" href="http://www.orgloft.com/page/luckyDraw.html"><li class="sidenav-btn">随机数<p>简单的随机数抽奖</p></li></a> 
+    <a target="_blank" href="https://www.desmos.com/calculator"><li class="sidenav-btn">desmos<p>在线函数图生成</p></li></a> 
+    <a target="_blank" href="https://123apps.com/cn/"><li class="sidenav-btn">123apps<p>免费网络应用</p></li></a> 
+    <a target="_blank" href="https://tool.oschina.net/"><li class="sidenav-btn">OSCHINA<p>应有尽有</p></li></a> 
+    <a target="_blank" href="https://5iux.cn/base64/"><li class="sidenav-btn">base64<p>加密解密base64</p></li></a> 
+    <a target="_blank" href="http://ping.pe/"><li class="sidenav-btn">ping.pe<p>黑科技感的ping</p></li></a> 
+    <a target="_blank" href="https://m.apkpure.com/cn/"><li class="sidenav-btn">Apkpure<p>国外类谷歌应用商店</p></li></a> 
+   </ul> 
+   <blockquote class="blockquote">▎ 文件传送</blockquote> 
+   <ul> 
+    <a target="_blank" href="https://cowtransfer.com/"><li class="sidenav-btn">奶牛快传<p>安全、省时高效</p></li></a> 
+    <a target="_blank" href="https://www.wenshushu.cn/"><li class="sidenav-btn">文叔叔<p>传文件的酸爽！</p></li></a> 
+    <a target="_blank" href="https://send.firefox.com/"><li class="sidenav-btn">FirefoxSend<p>安全高效火狐传送</p></li></a> 
+    <a target="_blank" href="https://app.tmp.link/"><li class="sidenav-btn">TMPLink<p>简单临时文件中转</p></li></a> 
+    <a target="_blank" href="https://pan.baidu.com/"><li class="sidenav-btn">百度云盘<p>毒！</p></li></a> 
+   </ul> 
+   <blockquote class="blockquote">▎ 社交媒体</blockquote> 
+   <ul> 
+    <a target="_blank" href="https://www.52pojie.cn/"><li class="sidenav-btn">吾爱破解<p>软件破解基地</p></li></a> 
+    <a target="_blank" href="https://www.youtube.com/"><li class="sidenav-btn">Youtube<p>国外视频网站</p></li></a> 
+    <a target="_blank" href="https://www.csdn.net/"><li class="sidenav-btn">CSDN<p>IT技术社区</p></li></a> 
+    <a target="_blank" href="https://www.zhihu.com/"><li class="sidenav-btn">知乎<p>有问题，上知乎</p></li></a> 
+    <a target="_blank" href="https://www.weibo.com/"><li class="sidenav-btn">微博<p>欣赏世界精彩瞬间</p></li></a> 
+    <a target="_blank" href="https://www.instagram.com/"><li class="sidenav-btn">Instagram<p>国外图片分享社区</p></li></a> 
+    <a target="_blank" href="https://twitter.com/"><li class="sidenav-btn">Twitter<p>国外微博</p></li></a> 
+    <a target="_blank" href="https://www.facebook.com/"><li class="sidenav-btn">Facebook<p>一本面子书</p></li></a> 
+   </ul> 
+   <blockquote class="blockquote">▎ 个人网站</blockquote> 
+   <ul> 
+    <a target="_blank" href="http://kksan.top"><li class="sidenav-btn">小K同學的博客<p>技术 日语 云旅游</p></li></a> 
+    <a target="_blank" href="http://www.carrotchou.blog/"><li class="sidenav-btn">胡萝卜周<p>软件分享领跑者</p></li></a> 
+    <a target="_blank" href="https://www.htcp.net/"><li class="sidenav-btn">云梦小站<p>安卓新资源</p></li></a> 
+    <a target="_blank" href="https://www.423down.com/"><li class="sidenav-btn">423down<p>软件搬运工</p></li></a> 
+   </ul> 
+   <blockquote class="blockquote">▎ 新闻</blockquote> 
+   <ul> 
+    <a target="_blank" href="http://www.chinadaily.com.cn/"><li class="sidenav-btn">中国日报</li></a> 
+    <a target="_blank" href="http://www.sc168.com/"><li class="sidenav-btn">顺德新闻</li></a> 
+    <a target="_blank" href="http://news.cctv.com/"><li class="sidenav-btn">央视新闻</li></a> 
+    <a target="_blank" href="https://www.thepaper.cn/"><li class="sidenav-btn">澎湃新闻</li></a> 
+    <a target="_blank" href="https://www.hk01.com/"><li class="sidenav-btn">香港01</li></a> 
+    <a target="_blank" href="https://www.msn.com/zh-tw/news"><li class="sidenav-btn">台湾即时新闻</li></a> 
+    <a target="_blank" href="https://www.bbc.com/"><li class="sidenav-btn">BBC</li></a> 
+    <a target="_blank" href="https://www.nhk.or.jp/"><li class="sidenav-btn">NHK</li></a> 
+   </ul> 
+   <blockquote class="blockquote">▎ 追剧</blockquote> 
+   <ul> 
+    <a target="_blank" href="http://www.mp4ba.la/"><li class="sidenav-btn">MP4吧<p>高清MP4吧</p></li></a> 
+    <a target="_blank" href="http://www.rrys2019.com/"><li class="sidenav-btn">YYeTs<p>人人字幕组</p></li></a> 
+    <a target="_blank" href="https://ddrk.me/"><li class="sidenav-btn">低端影视<p>超清在线视频站</p></li></a> 
+    <a target="_blank" href="https://www.biyov.com/"><li class="sidenav-btn">比优视频<p>人生如戏</p></li></a> 
+    <a target="_blank" href="http://www.novipnoad.com/"><li class="sidenav-btn">NO视频<p>不负追剧好时光</p></li></a> 
+    <a target="_blank" href="http://www.doki8.com/"><li class="sidenav-btn">doki8<p>心动日剧</p></li></a> 
+    <a target="_blank" href="http://www.zzrbl.com/"><li class="sidenav-btn">猪猪日部落<p>猪猪日剧字幕组</p></li></a> 
+    <a target="_blank" href="https://bde4.com/"><li class="sidenav-btn">哔嘀影视<p>热门最新电影</p></li></a> 
+    <a target="_blank" href="http://1090ys.com/"><li class="sidenav-btn">1090影视<p>挺全的电影</p></li></a> 
+    <a target="_blank" href="https://www.shenma4480.com/"><li class="sidenav-btn">神马影院<p>神马都有？</p></li></a> 
+   </ul> 
+   <blockquote class="blockquote">▎ 开发</blockquote> 
+   <ul> 
+    <a target="_blank" href="https://developer.mozilla.org/zh-CN/"><li class="sidenav-btn">MDN<p>服务开发者</p></li></a> 
+    <a target="_blank" href="https://cdnjs.com/"><li class="sidenav-btn">cdnjs<p>Web开发资源</p></li></a> 
+    <a target="_blank" href="https://www.w3school.com.cn/"><li class="sidenav-btn">W3school<p>Web技术教程</p></li></a> 
+    <a target="_blank" href="https://github.com/"><li class="sidenav-btn">Github<p>分布式版本管理</p></li></a> 
+    <a target="_blank" href="https://codepen.io/"><li class="sidenav-btn">Codepen<p>Coding online</p></li></a> 
+    <a target="_blank" href="https://uigradients.com/"><li class="sidenav-btn">uiGradients<p>网页设计配色</p></li></a> 
+    <a target="_blank" href="https://cssfx.netlify.com/"><li class="sidenav-btn">CSSFX<p>CSS效果</p></li></a> 
+    <a target="_blank" href="https://www.faviator.xyz/"><li class="sidenav-btn">Faviator<p>自动生成图标</p></li></a> 
+    <a target="_blank" href="https://www.iconfont.cn/"><li class="sidenav-btn">IconFont<p>阿里巴巴图标库</p></li></a> 
+    <a target="_blank" href="https://cloudconvert.com/"><li class="sidenav-btn">FileConvert<p>文件转换器</p></li></a> 
+   </ul> 
+   <blockquote class="blockquote">▎ 关于我的</blockquote> 
+   <ul> 
+    <a target="_blank" href="https://www.xmpan.com"><li class="sidenav-btn"><p>熊猫畔</p></li></a> 
+    <a href="https://www.qia.la"><li class="sidenav-btn"><p>恰啦高防CDN</p></li></a>
+   </ul> 
+   <blockquote class="blockquote">▎ 设置</blockquote> 
+   <ul> 
+    <a href="#"><li class="sidenav-btn" id="night">夜间模式</li></a>
+    <a href="#"><li class="sidenav-btn" id="bg">干掉/显示壁纸</li></a>
+   </ul> 
+  </nav>
 
-									</div>
-								</div>
-							</div>
-						</div>	
-					</div>	<div class="tlinks">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>		
-	<!--/start-text-slider-->
-		<div  class="testimonials" id="testimonials">
-			 <div class="wmuSlider example1">
-		 	<div class="container-flueid">
-			   <article style="position: absolute; width:64%; opacity: 0;"> 
-				   	
-					<div class=" cont span_2_of_3 client-main">
-							<div class="slide-text">
-									<p>Vestibulum pharetra eleifend eros non 
-									faucibus. Aliquam viverra magna mi, sit amet  </p>
-						  	<span> </span>
-						 	</div>
-						 	<div class="clearfix"> </div>  
-					</div>
-				</article>
-				 <article style="position: absolute; width:64%; opacity: 0;"> 
-				   	<div class=" cont span_2_of_3  client-main">
-							<div class="slide-text">
-								<p>Vestibulum pharetra eleifend eros non 
-								faucibus. Aliquam viverra magna mi, sit amet  </p>
-						  			<span> </span>
-						 	</div>
-						 	<div class="clearfix"> </div>  
-					</div>
-				 </article>
-				 <article style="position: absolute; width:64%; opacity: 0;"> 
-				   	<div class="cont span_2_of_3  client-main">
-							<div class="slide-text">
-									<p>Vestibulum pharetra eleifend eros non 
-									faucibus. Aliquam viverra magna mi, sit amet  </p>
-						  	<span> </span>
-						 	</div>
-						 	<div class="clearfix"> </div>  
-					</div>
-				 </article>
-		 
-                  <script src="js/jquery.wmuSlider.js"></script> 
-					<script>
-       				     $('.example1').wmuSlider();         
-   					</script> 	           	      
-	         </div>
-	     </div>
-	 </div>
-	 <!--//text-slider-->
-<!--/start-footer-->                                                             
-		<div class="footer-section">
-				<div class="container">
-					<div class="footer-grids">
-						<div class="col-md-3 footer-grid bottom-nav">
-							<h3>Information </h3>
-								<ul>
-									<li><a href="index.html">Home</a></li>
-									<li><a href="about.html">About Us</a></li>
-									<li><a href="services.html">New Services</a></li>
-									<li><a href="404.html">Recent Projects</a></li>
-									<li><a href="blog.html">Blog</a></li>
-									<li><a href="mail.html">Mail Us</a></li>
-									<div class="clearfix"> </div>
-								</ul>
-							</div>
-						<div class="col-md-3 footer-grid category">
-							<h3>Categories </h3>
-								<ul>
-									<li><a href="#">Proin at tellus quis</a> </li>
-									<li><a href="#">Felis tincidun</a>  </li>
-									<li><a href="#">Vestibulum</a> </li>
-									<li><a href="#">Sets</a> </li>
-									<li><a href="#">Praesent sit</a> </li>
-									<li><a href="#">Amet nulla molestie</a> </li>
-									
-									<div class="clearfix"> </div>
-								</ul>
-							</div>
-							<div class="col-md-3 footer-grid brands">
-								<h3>Brands </h3>
-									<ul>
-										<li><a href="#">Pellentesque</a>  </li>
-										<li><a href="#">Lorem ipsum dolor </a> </li>
-										<li><a href="#">Vestibulum pharetra</a> </li>
-										<li><a href="#">Donec eros dolor</li>
-										<div class="clearfix"> </a> </div>
-									</ul>
-							</div>
-							<div class="col-md-3 footer-grid contact">
-								 	 <h3>Contact</h3>
-											<ul>
-												<li><a href="#">Tel:1(234) 567-8901</a></li>
-												<li><a href="#">Tel:1(234) 567-8936</a></li>
-												<div class="clearfix"> </div>
-											</ul>
-									
-								</div>	
-						<div class="clearfix"> </div>							
-					</div>
-				</div>
-			</div>
-		<!--//End-foote-->
-		<div class="copy-right-section">
-				<div class="container">
-					<div class="col-md-6 copy-right">
-						<p>Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
-					</div>
-					<div class="col-md-6 social-icons">
-						<ul class="soc_icons2">
-											<li><a href="#"><i class="icon_4"></i></a></li>
-											<li><a href="#"><i class="icon_5"></i></a></li>
-											<li><a href="#"><i class="icon_6"></i></a></li>
-											<div class="clearfix"> </div>
-										</ul>
+  <!-- 主页面 -->
+  <main id="main" class="panel">
+  <!-- 天气 -->
+  <div id="tp-weather-widget"></div>
+   <!-- 主容器 -->
+   <div class="container">
 
-					</div>
-				</div>
-		</div>
+    <!-- 侧边栏按钮 -->
+    <img class="slidebtn btn-hamburger js-slideout-toggle" src="img/menu.svg" /> 
+    <!-- 搜索盒子 --> 
+    <div class="search-box"> 
+     <!-- logo --> 
+     <div id="logo"> 
+      <div id="state"> 
+       <a href="folder://"><img id="img" src="img/bing.png" /></a> 
+      </div> 
+     </div>
+
+     <!-- 搜索框 --> 
+     <div class="inputDiv">
+      <form id="form" action="https://cn.bing.com/search" target="_self" onsubmit="return check()"> 
+      <input id="inputText" type="text" placeholder="搜索..." name="q" size="30" baidusug="1" /> 
+      <button id="submitButton" class="submitButton" type="submit"></button>
+      </form>
+      <!-- 搜索提示词 -->
+      <div id="searchlist">
+        <ul id="list"></ul>
+      </div>
+    </div>
+
+    <!-- 书签、引擎选择器 --> 
+    <div id="Select" class="Select" onclick="select()">
+     <hr>书签 
+     <img src="img/search-change.svg?v=2ae7ab8" />
+    </div> 
+    <!-- 书签 --> 
+    <div id="folder" class="folder"> 
+     <ul></ul>
+    </div> 
+
+    <!-- 导航引擎 --> 
+    <div id="nav" class="nav"> 
+     <ul></ul> 
+    </div>
+
+
+   </div> 
+  </main>
+ 
+<script type="text/javascript" src="js/slideout.min.js"></script>
+<script type="text/javascript">
+  var slideout = new Slideout({
+    'panel': document.getElementById('main'),
+    'menu': document.getElementById('menu'),
+    'padding': 290,
+    'tolerance': 70
+  });
+  document.querySelector('.js-slideout-toggle').addEventListener('click',
+  function() {
+    slideout.toggle();
+  });
+  document.querySelector('.menu').addEventListener('click',
+  function(eve) {
+    if (eve.target.nodeName === 'A') {
+      slideout.close();
+    }
+  });
+  $(document).click(function(e) {
+    var Class = $(e.target).attr("class");
+    var Id = $(e.target).attr("id");
+    if (Class == 'panel slideout-panel slideout-panel-left' || Class == 'folder-item col-xs-3 col-sm-2' || Class == 'search-box' || Id == 'inputText' || Id == 'logo') {
+      slideout.close();
+    }
+  });
+</script>
 
 </body>
+<script type="text/javascript">
+  document.write('<script src="js/main.js?v=' + now + '"><\/script\>');
+</script>
 </html>
